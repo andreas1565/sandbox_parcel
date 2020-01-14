@@ -1,0 +1,6 @@
+@use 'variables';
+.test{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    color: variables.$primary-color;
+}
